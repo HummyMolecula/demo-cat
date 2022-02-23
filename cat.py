@@ -16,11 +16,8 @@ class Cat:
         print("Age:", self.age)
         print("Happy?:", self.isHappy)
 
-cat1 = Cat()
-cat1.set_data("Barsik", 3, True)
-
-cat2 = Cat()
-cat2.set_data("Schopen", 2)
+cat1 = Cat("Barsik", 3, True)
+cat2 = Cat("Schopen", 2)
 
 print("First cat:")
 cat1.get_data()
