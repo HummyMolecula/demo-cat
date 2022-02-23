@@ -9,14 +9,10 @@ class Cat:
         self.isHappy = happy
 
 cat1 = Cat()
-cat1.name = "Barsik"
-cat1.age = 3
-cat1.isHappy = True
+cat1.set_data("Barsik", 3, True)
 
 cat2 = Cat()
-cat2.name = "Shopen"
-cat2.age = 4
-cat2.isHappy = True
+cat2.set_data("Schopen", 2)
 
 print("First cat:", cat1.name)
 print("Second cat:", cat2.name)
