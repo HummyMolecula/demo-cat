@@ -3,8 +3,8 @@ class Cat:
     age = None
     isHappy = None
 
-    def __init__(self):
-        pass
+    def __init__(self, name = "", age = 1, happy = False):
+        self.set_data(name, age, happy)
 
     def set_data(self, name = "", age = 1, happy = False):
         self.name = name
