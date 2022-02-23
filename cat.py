@@ -5,6 +5,7 @@ class Cat:
 
     def __init__(self, name = "", age = 1, happy = False):
         self.set_data(name, age, happy)
+        self.get_data()
 
     def set_data(self, name = "", age = 1, happy = False):
         self.name = name
