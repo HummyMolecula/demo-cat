@@ -1,6 +1,3 @@
-from email.policy import compat32
-
-
 class Cat:
     name = None
     age = None
