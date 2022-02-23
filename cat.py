@@ -3,6 +3,11 @@ class Cat:
     age = None
     isHappy = None
 
+    def set_data(self, name = "", age = 1, happy = False):
+        self.name = name
+        self.age = age
+        self.isHappy = happy
+
 cat1 = Cat()
 cat1.name = "Barsik"
 cat1.age = 3
