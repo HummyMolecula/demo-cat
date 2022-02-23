@@ -19,8 +19,3 @@ class Cat:
 
 cat1 = Cat("Barsik", 3, True)
 cat2 = Cat("Schopen", 2)
-
-print("First cat:")
-cat1.get_data()
-print("Second cat:")
-cat2.get_data()
